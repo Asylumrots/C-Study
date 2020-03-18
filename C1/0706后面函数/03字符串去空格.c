@@ -22,7 +22,7 @@ char* remove_space(char* ch)//此处为 *ch 还是 ch[]区别不大  至少ch依然代表数组地
 }
 
 
-int main()
+int main03()
 {
 	char ch[] = "he  l lo wor  l  d";
 	//printf("%p\n", remove_space(ch)[2]);

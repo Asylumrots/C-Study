@@ -3,7 +3,7 @@
 int main()
 {
 	//定义浮点型
-	float a = 3.14f;
+	float a = 3.14;
 	double b = 3.14;
 
 	//输出浮点型

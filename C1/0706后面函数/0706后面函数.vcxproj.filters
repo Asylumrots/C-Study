@@ -27,5 +27,32 @@
     <ClCompile Include="04指针和字符串.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05主函数参数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="08字符串的逆置.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="09字符串的拷贝.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10字符串的拼接.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11字符串的比较.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12字符串的格式化.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13字符串的查找.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14字符串的截取.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15字符串的类型转换.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

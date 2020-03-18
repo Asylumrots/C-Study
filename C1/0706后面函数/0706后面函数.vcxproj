@@ -122,6 +122,15 @@
     <ClCompile Include="02数组名作为函数参数.c" />
     <ClCompile Include="03字符串去空格.c" />
     <ClCompile Include="04指针和字符串.c" />
+    <ClCompile Include="05主函数参数.c" />
+    <ClCompile Include="08字符串的逆置.c" />
+    <ClCompile Include="09字符串的拷贝.c" />
+    <ClCompile Include="10字符串的拼接.c" />
+    <ClCompile Include="11字符串的比较.c" />
+    <ClCompile Include="12字符串的格式化.c" />
+    <ClCompile Include="13字符串的查找.c" />
+    <ClCompile Include="14字符串的截取.c" />
+    <ClCompile Include="15字符串的类型转换.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main04()
 {
 	char arr1[] = "helloworld";
 	char *arr2 = "hellowordl";//可以如此不报错
