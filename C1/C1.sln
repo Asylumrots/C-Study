@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06多文件编程", "06多�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0706后面函数", "0706后面函数\0706后面函数.vcxproj", "{9BDB6887-8806-4A19-B1F9-EDDA63CDEBEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08局部和静态", "08局部和静态\08局部和静态.vcxproj", "{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{9BDB6887-8806-4A19-B1F9-EDDA63CDEBEC}.Release|x64.Build.0 = Release|x64
 		{9BDB6887-8806-4A19-B1F9-EDDA63CDEBEC}.Release|x86.ActiveCfg = Release|Win32
 		{9BDB6887-8806-4A19-B1F9-EDDA63CDEBEC}.Release|x86.Build.0 = Release|Win32
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Debug|x64.ActiveCfg = Debug|x64
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Debug|x64.Build.0 = Debug|x64
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Debug|x86.Build.0 = Debug|Win32
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Release|x64.ActiveCfg = Release|x64
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Release|x64.Build.0 = Release|x64
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Release|x86.ActiveCfg = Release|Win32
+		{A03CA7D0-6ED4-4DC1-8450-2896EC97FAAA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
