@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01结构体的定义和使用.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="09联合体.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="10枚举.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="11typedef.c">
+    <ClCompile Include="01test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

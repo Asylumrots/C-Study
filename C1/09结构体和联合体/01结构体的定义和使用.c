@@ -51,7 +51,7 @@ int main01()
 	return 0;
 }      
 
-int main() 
+int main0102() 
 {
 	struct Student stu0;
 	scanf("%d%s%s%f", &stu0.no, stu0.name, stu0.sex, &stu0.score);//非地址的需要加&
