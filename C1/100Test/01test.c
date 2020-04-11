@@ -117,10 +117,27 @@ int main08()
 	return 0;
 }
 
-int main()
+int main11()
 {
-	int num = 0;
-	int k = 0; while (k = 1) { k++; num++; }
-	printf("%d",num);
+	int x, y;
+	(y = 6, y + 1, x = y, x + 1);
+	printf("%d", (y = 6, y + 1, x = y, x + 1));
 	return 0;
+}
+
+int main12()
+{
+	/*int  a = 5, b = 0, c = 0;
+	int *p=&a;
+	if (*p)  printf("***\n  ");
+	else   printf("$$$\n");*/
+	int ;
+
+	/*int i = 0;
+	while (a = 1) {
+		printf("%d", i);
+		i++ ;
+	}*/
+	return 0;
+
 }
