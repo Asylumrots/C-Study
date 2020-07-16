@@ -11,7 +11,7 @@ typedef struct Mys
 	int b;
 }str1;
 
-int main()
+int main11()
 {
 	ui a = 10;
 	printf("%d\n", a);

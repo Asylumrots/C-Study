@@ -19,5 +19,7 @@ int main()
 	//%p以无符号十六进制的数据查看内存中的地址
 	printf("%p\n", &a);
 	printf("%p\n", &b);
+
+	printf("%d\n", sizeof(int));
 	return 0;
 }

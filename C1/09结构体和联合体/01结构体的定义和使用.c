@@ -69,3 +69,14 @@ int main0102()
 	return 0;
 }
 //test git push
+
+int main()
+{
+	struct s
+	{
+		double a;
+		float b;
+	};
+	printf("%d", sizeof(struct s));
+	return 0;
+}

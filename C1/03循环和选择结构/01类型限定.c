@@ -6,4 +6,6 @@ int main01()
 	extern int b;
 	//¶¨Òå
 	int a = 0;
+
+	return 0;
 }

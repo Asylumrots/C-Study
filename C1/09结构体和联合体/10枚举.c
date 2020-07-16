@@ -51,3 +51,9 @@ int main1002()
 
 	return 0;
 }
+
+int main1003()
+{
+	printf("%d", sizeof(enum  Color));
+	return 0;
+}

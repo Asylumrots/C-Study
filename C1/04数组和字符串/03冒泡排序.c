@@ -12,7 +12,7 @@ int main0301()
 		for (int j = 0; j < size; j++)
 		{
 			time++;
-			if (arr[i] > arr[j])
+			if (arr[i] < arr[j])// <Îª½µĞò >ÎªÉıĞò
 			{
 				arr[i] = arr[i] + arr[j];
 				arr[j] = arr[i] - arr[j];
@@ -40,7 +40,7 @@ int main0302()
 		for (int j = 0; j < 10-i-1; j++)
 		{
 			time++;
-			if (arr[j] < arr[j+1])
+			if (arr[j] < arr[j+1])//µ¹Ğò >Ë³Ğò
 			{
 				arr[j] = arr[j] + arr[j+1];
 				arr[j+1] = arr[j] - arr[j+1];

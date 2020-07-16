@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
+int main06()
 {
 	char arr[] = "hello world";
 	printf("字符数组的大小%d\n", sizeof(arr));

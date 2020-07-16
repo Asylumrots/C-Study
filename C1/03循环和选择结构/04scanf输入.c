@@ -14,7 +14,7 @@ int main04()
 	scanf("%3d%d", &a, &b); //规范数位不到继续 到了后面给b
 	printf("%d===%d", a, b);
 
-	a = getchar();
+	a = getchar();//接收一个输入的char字符
 
 	return 0;
 }
