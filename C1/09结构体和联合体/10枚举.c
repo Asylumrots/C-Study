@@ -47,13 +47,13 @@ int main1002()
 	int a = 1;
 	enum Color c;
 	c = (enum Color)a;
-	printf("%d\n", c);
+	printf("%d\n", c);//1
 
 	return 0;
 }
 
 int main1003()
 {
-	printf("%d", sizeof(enum  Color));
+	printf("%d", sizeof(enum  Color));//4  存储一个无符号的int数字
 	return 0;
 }

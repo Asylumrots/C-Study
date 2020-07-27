@@ -132,7 +132,7 @@ int main8()
 		scanf("%d", &a[i]);
 	}
 
-	for (int i = 0; i < 9; i++)
+	/*for (int i = 0; i < 9; i++)
 	{
 		for (int j = 0; j < 9-i; j++)
 		{
@@ -142,6 +142,22 @@ int main8()
 				a[j+1] = a[j];
 				a[j] = n;
 			}
+		}
+	}*/
+
+	for (int i = 0; i < 9; i++)
+	{
+		int min = i;
+		for (int j = i+1; j < 10; j++)
+		{
+			if (a[j]>a[min])
+			{
+				min = j;
+				int temp = a[min];
+				a[min] = a[i];
+				a[i] = temp;
+			}
+			
 		}
 	}
 	printf("-----------\n");

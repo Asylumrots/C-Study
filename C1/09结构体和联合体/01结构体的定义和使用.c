@@ -70,7 +70,7 @@ int main0102()
 }
 //test git push
 
-int main()
+int main0103()
 {
 	struct s
 	{

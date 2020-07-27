@@ -27,5 +27,8 @@
     <ClCompile Include="纯做题.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02桌面编程题.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

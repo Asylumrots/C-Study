@@ -13,7 +13,7 @@ static void func2()
 	printf("%s\n", "hello world2!");
 }
 
-int main()
+int main03()
 {
 	func3();
 	func2();

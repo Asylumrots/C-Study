@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main05()
 {
 	//定义浮点型
 	float a = 3.14;

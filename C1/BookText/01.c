@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main()
+#define pi  3.14
+int main01()
 {
 	for (int i = 0; i < 5; i++)
 	{
@@ -11,5 +11,6 @@ int main()
 	printf("  *****\n");
 	printf("   *****\n");
 	printf("    *****\n");
+	printf("%f", pi);
 	return 0;
 }

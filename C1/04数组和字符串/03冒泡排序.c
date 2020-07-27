@@ -33,13 +33,13 @@ int main0302()
 {
 	int arr[10] = { 5,6,8,2,4,12,0,1,9,3 };
 	//int size = sizeof(arr) / sizeof(arr[0]);
-	int time = 0;
+	//int time = 0;
 
 	for (int i = 0; i < 10-1; i++)
 	{
 		for (int j = 0; j < 10-i-1; j++)
 		{
-			time++;
+			//time++;
 			if (arr[j] < arr[j+1])//µ¹Ðò >Ë³Ðò
 			{
 				arr[j] = arr[j] + arr[j+1];
@@ -53,7 +53,6 @@ int main0302()
 	{
 		printf("%d\n", arr[i]);
 	}
-
-	printf("---%d\n", time);
+	//printf("---%d\n", time);
 	return 0;
 }

@@ -2,7 +2,7 @@
 
 int main01()
 {
-	float f = 2;
+	float f = 2.2;
 	//float f = 2.2f;
 	//标识符命名规则
 	//1.不能使用系统关键子

@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS  //忽略输入错误警告
 #include <stdio.h>
 
-int main04()
+int main()
 {
 	int a, b;
 	//scanf("%d%d", &a, &b);   //这样输入时两个数中间用空格或直接回车加以区分两个数

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main15()
 {
 	char arr[] = "  123Œ“øΩ±¥";
 

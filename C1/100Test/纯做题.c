@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS  //忽略输入错误警告
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
 void main1()
 {
@@ -184,7 +185,7 @@ void main0012()
 	printf("%d   %d", k, b);
 }
 
-void main()
+void main0013()
 {
 	int k = 0;
 	char c = 'A';
@@ -203,3 +204,248 @@ void main()
 	} while (c < 'G');
 	printf("%d", k);
 }
+
+void main0014()
+{
+	/*char a[5] = "abcde";
+	for (size_t i = 0; i < 5; i++)
+	{
+		printf("%c\n", a[i]);
+	}*/
+	int a = 0, b = 2;
+	if (a&b++)
+	{
+		printf("111\n");
+	}
+	printf("%d,%d", a, b);
+}
+
+void main0015()
+{
+	char a1[5], a2[5], a3[5], a4[5];
+	scanf("%s%s", a1, a2);
+	gets(a3); gets(a4);
+	puts(a1); puts(a2); puts(a3); puts(a4);
+}
+
+void main0016()
+{
+	int j, c;
+	char n[2][4 + 1] = { "8980","9198" };
+	for (j = 4-1; j >=0; j--)
+	{
+		c = n[0][j] + n[1][j] - 2 * '0';
+		printf("==%d  %d   %d\n", n[0][j], n[1][j],c);
+		n[0][j] = c % 10 + '0';
+		printf("===%c\n", n[0][j]);
+	}
+	for (int i = 0; i <= 1; i++)
+	{
+		puts(n[i]);
+	}
+}
+
+int isLower(char ch[]) 
+{
+	int total = 0;
+	printf("%d\n", strlen(ch));
+	for (int m = 0; m <= strlen(ch); m++)
+	{
+		if (ch[m] >= 'a'&& ch[m]<='z')
+		{
+			total++;
+		}
+	}
+	return total;
+}
+
+void main0017()
+{
+	char ch[100];
+	scanf("%s", ch);
+	printf("%d", isLower(ch));
+}
+
+void main0018()
+{
+	int a[5] = { 0 };
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d", a[i]);
+	}
+}
+
+void main0019()
+{
+	//int *p, m = 5, n;
+	////scanf("%d", &n);
+	////*p = n;
+	//p = &n;
+	//*p = m;
+	/*char* s;
+	s = "abcde";
+	printf("%s", s);*/
+}
+
+void main0020() {
+	char c1, c2;
+	scanf("%c", &c1);
+	while (c1 < 65 || c1>90) scanf("%c", &c1);
+	c2 = c1 + 32;
+	printf("%c,%c\n", c1, c2);
+}
+
+void main0021()
+{
+	printf("%d", 1 & 2);
+}
+
+int main0022()
+{
+	int a, b, t, r, n;
+	printf("请输入两个数字：\n");
+	scanf("%d %d", &a, &b);
+	if (a < b)
+	{
+		t = b; b = a; a = t;
+	}
+	r = a % b;
+	n = a * b;
+	while (r != 0)
+	{
+		a = b;
+		b = r;
+		r = a % b;
+	}
+	printf("这两个数的最大公约数是%d，最小公倍数是%d\n", b, n / b);
+
+	return 0;
+}
+
+void method333(float a)
+{
+	printf("%f", a);
+}
+
+void main0023()
+{
+	int a = 3;
+	method333(a);
+}
+
+void main0024()
+{
+	int a = 235;
+	int g = a % 10;
+	int s = a / 10%10;
+	int b = a / 100;
+	printf("%d---%d---%d", b, s, g);
+}
+
+void fun(int x, int *y) {
+	printf("%d,%d", x, *y);
+}
+
+void main0025()
+{
+	int x = 3, y = 4;
+	fun(x, &y);
+}
+
+void main0026() {
+	int i, j, n;
+	for (i = 1; i <= 9; i++) {
+		// 将下面的for循环注释掉，就输出左下三角形
+		/*for (n = 1; n <= 9 - i; n++)
+			printf("        ");*/
+
+		for (j = 1; j <= i; j++)
+			printf("%d*%d=%2d  ", i, j, i*j);
+
+		printf("\n");
+	}
+}
+
+void main0027()
+{
+	char a[100] = "12345678";
+	int b = 12345678;
+	printf("%10s\n", a);
+	printf("%5d", b);
+}
+
+void main0028()
+{
+	int a = 0;
+	char *s = "\ta\018bc";
+	for (; *s != '\0'; s++) { printf("*"); a++; };
+	printf("");
+
+}
+
+void main0029()
+{
+	int m = 10, n = 20;
+	char *format = "%s, m=%d, n=%d\n";
+	m *= n;
+	printf(format, "m*=n", m, n);
+}
+
+void funccc(int *a, int i, int j)
+{
+	int t;
+	if (i < j)
+		{ t = a; a = a[j]; a[j] = t;
+		i++; j--;
+		fun(a,i,j);
+		}
+		
+}
+void main0030()
+{
+	int x[] = { 2,6,18 }, i;
+	funccc(x, 0, 3);
+	for (i = 0; i < 4; i++) printf("%2d", x);
+	 printf("\n");
+}
+
+void main0031()
+{
+	double d = 3.2; 
+	int x, y;
+	x = 1.2; 
+	y = (x + 3.8) ;
+	y /= 5.0;
+	printf("%d \n", d*y);
+	
+}
+
+#define MA(x) x*(x-1)
+union U
+	{
+	char st[4];
+	int i;
+	long l;
+};
+struct A
+{
+	int c;
+	union U u;
+}a;
+
+main0032()
+{
+	/*int a = 1, b = 2; printf("%d \n", MA(1 + a + b));
+	printf("%d \n", 1 + a + b*(1+a+b-1));*/
+	printf("%d===%d", sizeof(union U), sizeof(a));
+}
+
+char *f(char *str)
+{
+	return str = "fun";
+}
+void main()
+{
+	char *str = "one";
+}
+

@@ -19,3 +19,14 @@ int main09()
 	printf("%d\n", vars.a);
 	return 0;
 }
+
+int main0901()
+{
+	union MyUnion2
+	{
+		int a;
+		float b;
+		char c[6];
+	};
+	printf("%d", sizeof(union MyUnion2));//8  先判断最大的，然后判断是否能整除其他的
+}
